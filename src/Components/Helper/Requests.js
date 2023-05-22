@@ -1,6 +1,6 @@
 const API_KEY = "191a1dd89c13d9b3b6fa791de6656363";
 
-export default {
+export default req= {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-us`,
   fetchTopRated: `/movie/top_rated?api_key=${API_KEY}&language=en-us`,
   fetchActionMovies: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
