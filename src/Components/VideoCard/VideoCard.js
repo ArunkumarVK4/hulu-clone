@@ -9,7 +9,7 @@ const base_url = "https://image.tmdb.org/t/p/original";
 const VideoCard = forwardRef(({movie},ref)=> {
   return (
     <div ref={ref} className='videoCard'>
-    <img src={`${base_url}${movie.backdrop_path || movie.poster_path}`} alt="image" />
+    <img src={`${base_url}${movie.backdrop_path || movie.poster_path}`} alt="" />
     <TextTruncate
     line={1}
     element="p"
